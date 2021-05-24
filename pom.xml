@@ -81,6 +81,15 @@
         <docker.image.prefix>springcommunity</docker.image.prefix>
 
     </properties>
+    
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-33-185.us-east-2.compute.internal-releases</name>
+        <url>http://3.137.209.228:8081/artifactory/devops-libs-release-local</url>
+    </repository>
+</distributionManagement>
+
 
     <dependencyManagement>
         <dependencies>
